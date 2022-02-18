@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class SqliteHelper {
     // Setup
-    String URL = "jdbc:sqlite::resource:Northwind_small.sqlite";
+    String URL = "jdbc:sqlite:src/main/resources/Northwind_small.sqlite";
     Connection conn = null;
 
     public ArrayList<Customer> selectAllCustomers(){
